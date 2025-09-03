@@ -1,0 +1,28 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "studio": "npx drizzle-kit studio",
+    "push": "npx drizzle-kit push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "uuid": "^11.1.0"
+  }
+}
